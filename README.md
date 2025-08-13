@@ -48,27 +48,19 @@ Maven
 📦 Installation
 Clone the repository
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/zenith.git
+
 cd ProjectZenith-backend
 Configure Database
 
 Update application.properties with your database credentials
 
-properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 Configure Email Service (JavaMail SMTP)
 
-properties
-Copy
-Edit
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username=your_email@gmail.com
@@ -77,14 +69,8 @@ spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 Configure Razorpay API Keys
 
-properties
-Copy
-Edit
 razorpay.key_id=your_key_id
 razorpay.key_secret=your_key_secret
 Build & Run the Application
 
-arduino
-Copy
-Edit
 http://localhost:8080
